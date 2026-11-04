@@ -1,0 +1,14 @@
+# CODEOWNERS — last matching pattern wins
+# design-authority-repo, the ADR repository (roadmap: operating model, "ADR repository").
+# Owner teams come from create-teams.sh and each needs its own write grant there, or GitHub ignores it.
+# Enforced by ruleset 1 on main ("Require review from Code Owners"); ruleset 2 lets only these two teams merge.
+
+# da-secretary (the secretary and a CoE deputy): everything not listed below,
+# i.e. README, templates, schema, diagrams and CI
+*              @platform-team/da-secretary
+
+# da-standing (the six standing DA members): what the DA decides, and this file
+/decisions/    @platform-team/da-standing
+/standards/    @platform-team/da-standing
+/reviews/      @platform-team/da-standing
+/CODEOWNERS    @platform-team/da-standing
