@@ -108,6 +108,8 @@ For a procedural control, say why and who checks it. -->
 
 * New or changed path between Build and Run: {No | Yes, through the promote path only (ADR-003); any other path needs an ADR that supersedes ADR-003}
 * Credentials, keys or endpoints reachable from another zone after this change: {None | list}
+* Outside services that can start jobs in a zone, issue identities a zone trusts, or receive its data after this change:
+  {None | service: what it starts, which identity it issues, what data it receives}
 
 ### Agents, Skills, MCP Servers and Models
 
@@ -124,7 +126,7 @@ For a procedural control, say why and who checks it. -->
 | Data classes processed, stored or moved | |
 | Jurisdiction overlays affected | |
 | Residency, EU egress, cross-border transfer basis | |
-| Regional replica required (ADR-010 trigger) | |
+| Regional replica required (ADR-002 trigger) | |
 | EU AI Act classification or transparency duty | |
 | Sector regimes (PCI DSS, EU DORA, SOX) | |
 | Developer telemetry and works-council constraints | |

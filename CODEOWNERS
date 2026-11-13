@@ -5,10 +5,10 @@
 
 # da-secretary (the secretary and a CoE deputy): everything not listed below,
 # i.e. README, templates, schema, diagrams and CI
-*              @platform-team/da-secretary
+*              @AGENTIC-AI-PDLC-PLATFORM/da-secretary
 
 # da-standing (the six standing DA members): what the DA decides, and this file
-/decisions/    @platform-team/da-standing
-/standards/    @platform-team/da-standing
-/reviews/      @platform-team/da-standing
-/CODEOWNERS    @platform-team/da-standing
+/decisions/    @AGENTIC-AI-PDLC-PLATFORM/da-standing
+/standards/    @AGENTIC-AI-PDLC-PLATFORM/da-standing
+/reviews/      @AGENTIC-AI-PDLC-PLATFORM/da-standing
+/CODEOWNERS    @AGENTIC-AI-PDLC-PLATFORM/da-standing
