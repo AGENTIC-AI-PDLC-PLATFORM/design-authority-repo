@@ -7,7 +7,7 @@ consulted: [ciso-delegate, dpo, legal, network-team, security-team]  # e.g. [coe
 informed: [steering-committee]
 
 # ── Identification and ownership ──────────────────────────────────────────
-id: ADR-002                           # next free number, never reused; matches decisions/ADR-NNN-title-with-dashes.md
+id: ADR-002                           # next free number, never reused; matches ADR-DECISIONS/ADR-NNN-title-with-dashes.md
 owner: "{name}, CoE platform lead"
 proposer: "CoE Squads A and B"
 drafted-with: ""                      # "{agent}@{version}" when agent 2 (Architecture and ADR drafting) wrote the draft
@@ -35,7 +35,7 @@ revisit: "first sovereign-region replica (ADR-010) or a second cloud provider"  
 
 <!--
 How to use this template
-* One decision per file. Copy it to decisions/ADR-NNN-title-with-dashes.md and open a pull request under your own account:
+* One decision per file. Copy it to ADR-DECISIONS/ADR-NNN-title-with-dashes.md and open a pull request under your own account:
   the pull request is the RFC. Agent 2 may draft it (note it in drafted-with) but never opens it, because it is T1.
 * Sections without an "optional" marker stay. If one does not apply, write "None, because {reason}" rather than deleting it.
 * An ADR records a decision. Design detail belongs in the standard or the design-review record; lessons learned belong in the review record.
